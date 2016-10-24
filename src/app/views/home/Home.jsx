@@ -47,7 +47,26 @@ class Home extends React.Component {
   render() {
      
       var movies = _.map(this.state.movies, (movie)=>{
-          return <li>{movie.Title}</li>
+          return <tr>
+                    <td>
+                        <table className="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td>Title</td><td>{movie.Title}</td>
+                                </tr>
+                                <tr>
+                                    <td>Type</td><td>{movie.Type}</td>
+                                </tr>
+                                <tr>
+                                    <td>Year</td><td>{movie.Year}</td>
+                                </tr>
+                                <tr>
+                                    <td colSpan="2"><img src={movie.Poster}></img></td>
+                                </tr>
+                            </tbody>
+                        </table>
+              </td>
+          </tr>
       })
       
     return(
@@ -60,8 +79,14 @@ class Home extends React.Component {
                 <input type="button" name="searchButton" value="Search" onClick={this.updateSearch.bind(this)}></input>
             </form>
         </div>
-        <div>
-             <ul>{movies}</ul> 
+        <div className="container">
+             <div>
+               <table>
+                    <tbody>
+                        {movies}
+                     </tbody>   
+                 </table>  
+            </div>
         </div>    
       </div>
     );
