@@ -4,8 +4,8 @@
   "description": "to demonstrate react js, redux,  bootstrap and webpack",
   "main": "src/index.js",
   "scripts": {
-    "dev": "NODE_ENV=dev webpack",
-    "prod": "NODE_ENV=production webpack -p --config webpack.production.config.babel.js ",
+    "dev": "cross-env NODE_ENV=dev webpack",
+    "prod": "cross-env NODE_ENV=production webpack -p --config webpack.production.config.babel.js ",
     "start": "babel-node --presets es2015 ./server.hot.reload.js",
     "babel-version": "babel --version"
   },
@@ -74,6 +74,7 @@
     "redux": "3.0.4",
     "superagent": "^1.8.3",
     "webpack": "^1.12.14",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^1.14.1",
+    "cross-env" : "4.0.0"
   }
 }
