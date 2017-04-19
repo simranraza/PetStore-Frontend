@@ -23,7 +23,7 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
-    "babel-cli": "^6.10.1",
+    "babel-cli": "^6.24.1",
     "babel-core": "^6.7.4",
     "babel-eslint": "^6.0.0",
     "babel-loader": "^6.2.4",
@@ -37,6 +37,7 @@
     "expose-loader": "^0.7.1",
     "file-loader": "^0.8.5",
     "json-loader": "^0.5.4",
+    "lodash": "3.10.1",
     "node-sass": "^3.4.2",
     "postcss-loader": "^0.8.2",
     "precss": "^1.4.0",
@@ -45,24 +46,24 @@
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.14",
-    "webpack-dev-server": "^1.14.1",
-    "lodash": "3.10.1"
+    "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "animate.css": "^3.5.1",
+    "babel": "^6.23.0",
     "babel-polyfill": "^6.7.4",
     "bootstrap": "^3.3.6",
     "classnames": "^2.2.3",
     "font-awesome": "^4.5.0",
     "jquery": "^2.2.1",
+    "lodash": "3.10.1",
     "react": "^0.14.7",
     "react-bootstrap": "^0.28.3",
     "react-dom": "^0.14.7",
+    "react-redux": "4.0.0",
     "react-router": "^2.0.0",
     "react-tap-event-plugin": "^0.2.2",
-    "superagent": "^1.8.3",
-    "react-redux": "4.0.0",
     "redux": "3.0.4",
-    "lodash": "3.10.1"
+    "superagent": "^1.8.3"
   }
 }
