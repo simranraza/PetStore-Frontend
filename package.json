@@ -49,6 +49,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "autoprefixer": "^6.3.6",
     "animate.css": "^3.5.1",
     "babel-cli": "^6.24.1",
     "babel-cli": "^6.24.1",
