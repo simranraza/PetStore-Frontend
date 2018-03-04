@@ -1,10 +1,16 @@
 {
-  "brand"       : "React Tester",
+  "brand"       : "Pet store",
   "loginLinks"  : [{
     "label" : "Login",
     "link"  : "/login"
     }],
-  "leftLinks"   : [],
+  "leftLinks"   : [{
+    "label" : "Pets",
+    "link"  : "/pets"
+  }, {
+    "label" : "Owners",
+    "link"  : "/owners"
+  }],
   "rightLinks"  : [{
     "label" : "Home",
     "link"  : "/"
